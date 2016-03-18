@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="../css/styles.css" rel="stylesheet" type="text/css">
+  <link href="../css/media.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <script src="http://maps.google.com/maps/api/js?sensor=false" type=
+  "text/javascript">
+  </script>
+  <script type="text/javascript">
+  function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-24.8520522,152.39065619999997),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-24.8520522, 152.39065619999997)});infowindow = new google.maps.InfoWindow({content:"<b>AllStyle Homes<\/b><br/>255 Serenity Drive<br/>4670 Bundaberg" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+  </script>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <title>Sitemap</title>
+  <style type="text/css">
+  </style>
+</head>
+<body>
+  <div id="wrapper1">
+    <div id="container">
+      <div id="header_container">
+        <div id="leftheader"><img alt="AllStyles Home Logo" class="img1" src=
+        "../images/logo1.jpg" title="Allstyles Company Logo."></div>
+      </div>
+      <div id="rightheader"><img alt="AllStyles Home Logo" class="img1" src=
+      "../images/logo_right.png" title="Company Contact Information."></div>
+    </div>
+    <div id="navbar">
+      <ul id="nav">
+	<li><a class="active" href="../index.html">HOME</a></li>	
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="designs.html">DESIGNS</a></li>
+    <li><a href="processes.html">OUR PROCESSES</a></li>
+    <li><a href="testimonials.html">TESTIMONIALS</a></li>
+    <li><a href="faqs.html">FAQs</a></li>
+    <li><a href="../scripts/contact.php">CONTACT US</a></li>
+	<li class="loginli"><a href="../scripts/login.php">LOG IN AREA</a></li>
+    </ul>
+    </div><img alt="Site Map" src="../images/map.png" title=
+    "Sitemap Information.">
+    <div id="hyperlinks">
+      <p><a href="../index.html">Home Page</a> -Introduction and welcome to the
+      site.</p>
+      <p><a href="privacy_statement.pdf">Privacy Page PDF</a> -Contains the sites privacy
+      statement.</p>
+      <p><a href="about.html">About Us Page</a> -General information about the
+      buisness.</p>
+      <p><a href="designs.html">Design Page</a> -An overview of the standard
+      house designs available.</p>
+      <p><a href="sitemap.html">Site Map Page</a>-Gives an analysis of the
+      site structure and interlinking pages.</p>
+      <p><a href="processes.html">Our Processes Page</a>-This page contains
+      information about the building processes.</p>
+      <p><a href="testimonials.html">Testimonial Page</a> - A page containing
+      testimonials from previously satisfied clients.</p>
+      <p><a href="contact.html">Contagt Page</a> This page you can contact,
+      message and send email to the site owners.</p>
+      <p><a href="faqs.html">Faqs Page</a> -Contains details answering questions
+      asked by clients of the business.</p>
+      <p><a href="web_site_terms.pdf">Terms & Conditions PDF</a>-Contains the sites Terms & Conditions
+      statement.</p>
+      
+      <p><a href="#">Privacy Statement</a> | <a href=
+      "#">Site Map</a> and <a href="#">Terms & Conditions</a>               
+      Are hypertext links to another page, document
+      or another site location, activated by clicking on the highlighted word
+      or image.</p>
+      <p>Image map - gives an illustration of an image and the different
+      content sections or text that should appear on mouseover.</p>
+      
+      <div class="foot" id="footer">
+        <a href="privacy_statement.pdf" target="_blank">Privacy Statement</a> |
+        <a href="web_site_terms.pdf" target="_blank">Terms & Conditions</a> |
+        <a href="sitemap.html">Site Map</a> | &#169; 2015 AllStyle Homes
+      </div>
+    </div>
+  </div>
+</body>
+</html>

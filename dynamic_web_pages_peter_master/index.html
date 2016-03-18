@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]>
+  <p>Your browser is out of date please upgrade your browser to view this site</p>
+  <a href="http://windows.microsoft.com/en-US/internet-explorer/download-ie"> Download new browser here</a>
+<![endif]-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/media.css" rel="stylesheet" type="text/css">
+  <link href="css/animated.css" rel="stylesheet" type="text/css">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <title>AllStyle Homes</title>
+  
+  <script type="text/javascript">
+
+day=new Date()     //..get the date
+
+x=day.getHours()    //..get the hour
+
+if(x>=0 && x<4) {
+
+document.write('<style type="text/css">body{background-image:url("./images/dawn.png"); background-repeat: no-repeat;}</style>')
+} else
+
+if(x>=4 && x<12) {
+
+   document.write('<style type="text/css">body{background-image:url("./images/sunrise.png"); background-repeat: no-repeat;}</style>')
+
+} else
+
+if(x>=12 && x<18) {
+
+   document.write('<style type="text/css">body{background-image:url("./images/evening.png"); background-repeat: no-repeat;}</style>')
+
+} else
+
+if (x>=18 && x<24) {
+
+  document.write('<style type="text/css">body{background-image:url("./images/midnight.png"); background-repeat: no-repeat;}</style>')
+
+}
+</script> 
+  </head>
+<body>
+  <div id="wrapper1">
+    <div id="container">
+ 		<div id="header_container">
+    <div id="leftheader"><img  id="rotate" class="img1" src="images/logo1.jpg" alt="AllStyles Home Logo" title="Allstyles Company Logo."/></div>            
+       	</div>
+	<div id="rightheader"><img  class="img1" src="images/logo_right.png" alt="AllStyles Contact Logo"  title="Company Contact Information."/></div>
+ 		</div>
+    <div id="navbar">
+      <ul id="nav">
+        <li>
+          <a class="active" href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="pages/about.html">ABOUT US</a>
+        </li>
+        <li>
+          <a href="pages/designs.html">DESIGNS</a>
+        </li>
+        <li>
+          <a href="pages/processes.html">OUR PROCESSES</a>
+        </li>
+        <li>
+          <a href="pages/testimonials.html">TESTIMONIALS</a>
+        </li>
+        <li>
+          <a href="pages/faqs.html">FAQs</a>
+        </li>
+        <li>
+          <a href="scripts/contact.php">CONTACT US</a>
+        </li>
+        <li class="loginli"><a href="scripts/login.php">LOG IN AREA</a></li>
+      </ul>
+    </div>
+    
+    <div id="home_content" >
+      <p class="css-typing">Welcome to AllStyle Homes</p>
+      
+      <div id="subscribe" class="blink"><a href="scripts/contact.php">Join Our Mail List</a></div>
+        
+        
+     
+     
+      <p><img alt="Mr &amp;Mrs Knox" class="img5" src="images/alex.png" title="Alex & Sheree Knox"/>
+      AllStyle Homes is a family owned business operated by Alex and Sheree
+      Knox. Alex has spent over 25 years in the building industry and together,
+      with Sheree has operated AllStyle Homes for the past 15 years. We look
+      forward to providing you with excellent service and in assisting you with
+      the construction of your new home. We have an extensive range of new home
+      plans available that can be modified to suit your land, your lifestyle,
+      and even your budget. You can utilize this website to look at our plans
+      and find out more about how we work. There are plans to cover every
+      budget from a small three bedroom home, a four bed two bathroom or a
+      palace. Within these pages you will find a selection of our designs, but
+      for a larger range of plans we encourage you to contact one of our
+      friendly design and sales team.</p>
+
+      <p class="mycss">Design Flexibility - Our design or yours</p>
+
+      <p>Whilst we have an extensive range of plans to suit just about any
+      budget sometimes you may have already settled on a plan. If that is the
+      case then we are happy to work on your plan. Also if you have something
+      in mind and would like to make use of our design services then let us
+      know.</p>
+     
+      <div id="image" >
+      
+     <a href=""><img src="images/display.png" class="display" Alt="Dispalay House" Title="Display Home" ></a>
+      
+      </div>
+      
+      <p class="mycss">Build Quality</p>
+
+      <p>At AllStyle Homes Bundaberg we pride ourselves on the Quality of our
+      finish. We are proud to say we are run by locals, employ locals, use
+      local suppliers and all local trades. This really is a local company with
+      the backing of the AllStyle Homes name! To see one of our Homes contact
+      the team at Bundaberg and we can arrange showing you one of the many
+      homes we have under construction.</p>
+      
+       </div>
+    
+	<div class="foot" id="footer">
+      <a href="pages/privacy_statement.pdf" target="_blank">Privacy Statement </a> |
+      <a href="pages/web_site_terms.pdf" target="_blank">Terms &amp; Conditions </a>| 
+      <a href="pages/sitemap.html">Site Map</a> | &#169; 2015
+      AllStyle Homes
+      <div class="adobe">
+      <a href="http://get.adobe.com/reader/" target="_blank"><img src="images/adobe.png" alt="Get Adobe Reader." style="float:right;"></a>
+      </div>
+	<div class="validate">
+    <a href="">
+    <img style="border:0;width:88px;height:31px"
+    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+    alt="Valid CSS!" />
+    </a>
+    </div>
+  </div>
+  </div>
+  <script>
+ var effectimg = document.getElementById("rotate");
+ window.onload = function(){ 
+ effectimg.addEventListener("click", function(){
+ effectimg.className = "img1 animated flipInX";
+ setTimeout(function() {
+ effectimg.className = "img1";	 
+ },2000);	 
+ }	);  
+ };
+ </script>
+ 
+ 
+</body>
+</html>
